@@ -1,0 +1,223 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+html{
+    background-color: #fff; color: #555555;;
+    font-size: 16px;
+    font-weight: 300px;
+
+
+
+}
+header{
+     background-image:linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.7) ) ,url(../images/hero.jpg);
+     height: 100vh;
+     background-position: center;
+     background-size: cover;
+
+}
+    h1{
+        color: #fff; margin-bottom:20px;
+           text-transform: uppercase;
+           word-spacing: 10px;
+           letter-spacing: 2px;
+           font-size: 200%;
+
+
+    }.hero-text{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: scale(1)
+        translate(-50%,-50%);
+    }
+    .btn:link,.btn:visited{
+        border:solid 1px #e67e22;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #e67e22;
+        border-radius: 15px;
+
+    }
+    .btn:hover{
+       background-color: #e67e22;
+       color: #fff;
+
+    }
+    .logo{
+        height: 100px;
+        margin-top: 20px;
+        float: left;
+    }
+    .main-nav{
+        float: right;
+        list-style:none;
+        margin-top: 55px;
+
+
+    }.main-nav li{
+        display: inline-block;
+        margin-left: 40px;
+
+    }.main-nav li a:link ,.main-nav li a:visited{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }.main-nav li a:hover ,.main-nav li a:active{
+        color: #e67e22;
+        text-decoration: underline;
+    }section{
+        padding: 40px 0px;
+    }h2{
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 150%;
+
+    }h2::after{
+        content:  "";
+        display: block;
+        width: 100px;
+        height: 4px;
+        background-color: #e67e22;
+        margin: 10px auto;
+
+    }.feat-desc{
+        width: 90%;
+        margin-left: 15%;
+        line-height: 150%;
+        margin-bottom: 30px;
+    }
+.box i{
+    color: #e67e22;
+    margin-bottom: 10px;
+
+}.box h3{
+margin-bottom: 20px;
+font-size: 20px;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+.box p{
+    text-align: justify;
+}#gallery img{
+    width: 100%;
+    opacity: .7;
+    transform: scale(1.1);
+transition: all 1s;
+
+}.col-3{
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+
+}#gallery img:hover{
+    opacity: 1;
+    transform: scale(1); 
+}.app{
+    width: 40%;
+
+}.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+
+}
+.step-box:last-child{
+    text-align:left;
+    padding-left: 3%;
+    margin-top: 70px;
+
+}
+.step-box{
+    margin-top: 30px;
+}.step{
+    margin-bottom: 50px;
+    display: flex;
+}.step div{
+width: 50px;
+height: 50px;
+border: solid 2px #e67e22 ;
+border-radius: 50%;
+color: #e67e22;
+padding: 15px;
+text-align: center;
+margin-right: 15px;
+
+}.step p{
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+}.btn-download{
+    height: 60px;
+    margin-left: 15px;
+}
+.city img{
+    width: 100%;
+
+}.city h3{
+    text-align: center;
+    font-size: 125%;
+    margin: 10px 0px;
+
+}.city-feat i{
+    color: #e67e22;
+
+}.city-feat{
+    margin-bottom: 20px;
+
+}#testimonials{
+    background-image:linear-gradient(   rgba(0,0,0,.7) , rgba(0,0,0,.7)) ,url(../images/back-customers.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}blockquote{
+font-style: italic;
+line-height: 150%;
+font-size: 90%;
+margin-top: 40px;
+}blockquote::before{
+    content: "\201c";
+    display:block;
+    font-size: 500%;
+}cite{
+    display: block;
+    margin-top: 20px;
+
+}
+  cite img{
+      height: 50px;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-right: 10px;
+  }input[type=text],
+  input[type=email],
+  select,
+  textarea
+  {
+      
+width: 100%;
+padding: 7px;
+margin-bottom: 10px;
+border-radius: 7px;
+border: solid;
+
+  }input[type=submit]{
+      padding:7px 15px;
+      background-color: #e67e22;
+      border: solid;
+      color: black;
+      border-radius: 12px;
+
+
+
+  }input[type=submit]:hover{
+    color: #e67e22;
+    background-color: transparent;
+
+  }
+    
+
